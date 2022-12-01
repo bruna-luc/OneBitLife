@@ -13,24 +13,24 @@ export default function LifeStatus() {
 */
 
   return (
-    
+
     <View style={styles.container}>
       <Lottie
-        source={requice("../../../assets/education/education-1.json")}
+        source={require("../../../assets/education/education-1.json")}
         autoPlay
         loop
         style={styles.educacaoAnimacao}
       />
 
       <Lottie
-        source={requice("../../../assets/money/money-100.json")}
+        source={require("../../../assets/money/money-100.json")}
         autoPlay
         loop
         style={styles.financasAnimacao}
       />
 
       <Lottie
-        source={requice("../../../assets/robot/robot-100-100.json")}
+        source={require("../../../assets/robot/robot-100-100.json")}
         autoPlay
         loop
         style={styles.roboAnimacao}
@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
   container: {
     width: 300,
     height: 300,
+    // marginTop:100,
   },
   roboAnimacao: {
     width: 190,
